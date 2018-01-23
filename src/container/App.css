@@ -1,0 +1,65 @@
+body {
+  margin-top: 30px !important;
+}
+
+th {
+  cursor: pointer;
+  user-select: none;
+}
+
+th i {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  visibility: hidden;
+}
+th i.asc:before {
+  content: "\e252";
+}
+
+th i.desc:before {
+  content: "\e253";
+}
+
+th:hover > i {
+  visibility: visible;
+}
+.pagination {
+  display: block;
+}
+
+.pagination-counter {
+  padding-top: 6px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.screen-loader {
+  position: fixed;
+  background: #fff;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.screen-loader img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
