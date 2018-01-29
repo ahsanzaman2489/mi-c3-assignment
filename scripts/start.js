@@ -75,7 +75,7 @@ choosePort(HOST, DEFAULT_PORT)
       }
       console.log(chalk.cyan('Starting the development server...\n'));
       console.log(urls.localUrlForBrowser)
-      openBrowser(urls.localUrlForBrowser+'page/1');
+      openBrowser(urls.localUrlForBrowser + '#/page/1');
     });
 
     ['SIGINT', 'SIGTERM'].forEach(function(sig) {
