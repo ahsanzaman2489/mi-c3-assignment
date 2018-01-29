@@ -18,4 +18,8 @@ Test For Mi-C3 for Reactjs Developer
 - npm run build to generate local build package
 
 # Run Build
-- open index.html file in build folder and append 'page/1' at the end of the link in browser or deploy build package on server and append 'page/1' at the end of the link
+- open index.html file in build folder and append 'page/1' at the end of the link in browser or deploy build package on server and append 'page/1' at the end of the link.
+
+Like this : 
+file:///pathtoproject/build/index.html#/page/1 or localhost:3000/page/1 or www.abc.com/page/1
+
