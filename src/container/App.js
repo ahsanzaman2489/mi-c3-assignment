@@ -22,7 +22,7 @@ class App extends Component {
             <div className="container">
                 <Provider store={store}>
                     <Router history={history}>
-                        <Route path="/page/(:page)" component={TABLE}>
+                        <Route path="/users" component={TABLE}>
                         </Route>
                     </Router>
                 </Provider>
